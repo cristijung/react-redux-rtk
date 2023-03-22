@@ -1,7 +1,7 @@
 # react-redux-rtk
 Redux Tool Kit 
 
-![screen](./public/assets/r1.png)
+![screen](./public/assets/r1.jpg)
 
 ## Para o nosso novo projeto, crie uma pasta e depois não esqueça de colocar seus códigos em um repositório git.
 
