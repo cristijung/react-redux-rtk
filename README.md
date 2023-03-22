@@ -11,6 +11,8 @@ React - Redux Tool Kit
 4 - E para você que está acostumado com o CRA, usando o Vite a gente executa o projeto usando o comando: `npm run dev` <br/>
 5 - Se precisar do React router dom → `npm install -E react-router-dom @types/react-router-dom`. Se desejar colocar uma versão específica é só colocar o @eonumdaversao. <br/>
 6 - Para a instalação do Redux ToolKit → `npm install @reduxjs/toolkit react-redux`. <br/>
+7 - Instalação do → `npm i --save-dev @types/node`
+8 - Se desejar instalar o SaSS → `npm install sass --save-dev`
 
 ## Algumas das funcionalidades do Redux Toolkit incluem:
 
