@@ -1,10 +1,14 @@
 import { Counter } from './features/counter/Counter'
 import './App.css'
+import { Header } from './components/Header'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
     <div className="App">
+      <Header/>
       <header className="App-header">
+       
         <img
           src={`${process.env.PUBLIC_URL ?? ''}/logo.svg`}
           className="App-logo"
@@ -51,6 +55,7 @@ function App() {
           </a>
         </span>
       </header>
+      <Footer/>
     </div>
   )
 }
