@@ -6,55 +6,24 @@ import { Footer } from './components/Footer'
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <header className="App-header">
+      <Header/>      
+      <div className='texto'>
+        <h3>Vantagens do Redux ToolKit</h3>
+        -  Gerenciamento de estado simplificado: o Redux Toolkit fornece um conjunto de utilitários que simplificam o 
+        processo de gerenciamento de estado em aplicações Redux, tornando mais fácil para desenvolvedores iniciantes e 
+        experientes manter a consistência do estado em toda a aplicação.<br/>
+        - Código mais limpo e legível: O Redux Toolkit ajuda a reduzir a quantidade de código boilerplate necessário 
+        para configurar uma loja Redux, o que torna o código mais limpo e legível.<br/>
+        - Desenvolvimento mais rápido: O Redux Toolkit inclui ferramentas que ajudam a acelerar o desenvolvimento, 
+        como o createSlice, que gera reducers e actions automaticamente, reduzindo a quantidade de trabalho manual 
+        necessário para criar e atualizar o estado.<br/>
+        - Suporte a imutabilidade: O Redux Toolkit incentiva a prática da imutabilidade do estado, o que ajuda a evitar 
+        bugs comuns relacionados a mutabilidade em aplicações Redux.<br/>
+        - Melhor desempenho: O Redux Toolkit inclui um recurso chamado "immer", que permite atualizar o estado de forma 
+        mais eficiente e imutável, o que pode levar a melhorias significativas no desempenho da aplicação.
+      </div>         
        
-        <img
-          src={`${process.env.PUBLIC_URL ?? ''}/logo.svg`}
-          className="App-logo"
-          alt="logo"
-        />
-        <Counter />
-       
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
+        <Counter />    
       <Footer/>
     </div>
   )
