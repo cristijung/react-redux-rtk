@@ -5,7 +5,7 @@ export function Text() {
         <>
          <h3>Vantagens do Redux ToolKit</h3>
          <div className={styles.texto}>
-         -  Gerenciamento de estado simplificado: o Redux Toolkit fornece um conjunto de utilitários que simplificam o 
+        -  Gerenciamento de estado simplificado: o Redux Toolkit fornece um conjunto de utilitários que simplificam o 
         processo de gerenciamento de estado em aplicações Redux, tornando mais fácil para desenvolvedores iniciantes e 
         experientes manter a consistência do estado em toda a aplicação.<br/>
         - Código mais limpo e legível: O Redux Toolkit ajuda a reduzir a quantidade de código boilerplate necessário 
