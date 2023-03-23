@@ -9,6 +9,11 @@
   --corBtnHover: #275842; 
 }
 
+.App {
+  text-align: center;
+}
+
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
